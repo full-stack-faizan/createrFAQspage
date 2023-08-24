@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+
+}
+
+.main{
+    background-color: #f1f5f8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second{
+    background-color: f1f5f8;
+    height: 48rem;
+    width: 40rem;
+}
+.second h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #c59d5f;
+    font-family: 'Great Vibes', cursive;
+}
+.maindata{
+    height: 44rem;
+    width: 40rem;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.data h2{
+    font-size: 1.6rem;
+    text-align: left;
+    padding: 1rem;
+  letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+color: hsl(209, 61%, 16%);
+    
+}
+
+@media(max-width:900px){
+    .data h2{
+      white-space: initial;
+    }
+    .maindata{
+        height: 44rem;
+        width: auto;
+        
+    }
+}
+
+.q1{
+    display: flex;
+    margin-left: 3px;
+    position: relative;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.a1{
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 1rem;
+    display: none;
+   
+}
+.ansa1{
+    display: block;
+}
+
+.q1 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    padding: 1rem;
+    
+}
+.btns{
+    
+    position: absolute;
+    right: 3%;
+  
+    outline: none;
+    text-decoration: none;
+    border: none;
+    transition: all 0.5s linear;
+}
+
+.btns:hover{
+    /* transition: all .09s linear; */
+    transform: rotate(90deg);
+
+}
+.fa-square-minus{
+    color: #c59d5f;
+    font-size: 2rem;
+    display: none;
+    padding: 1rem;
+}
+.fa-d-block{
+    display: block;
+}
+.fa-d-none{
+    display: none;
+}
+.fa-square-plus{
+    color: #c59d5f;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
